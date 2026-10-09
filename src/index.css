@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after,
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  header,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  article {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-bottom: 24px !important;
+  }
+
+  .border-2,
+  .border {
+    border-color: black !important;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "PruebaT - Simulador PIENSE II",
+  "description": "Simulador oficial interactivo de la prueba de admisión PIENSE II con generación dinámica de reactivos y diseño en blanco y negro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
